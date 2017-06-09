@@ -12,10 +12,10 @@ http.createServer(function (request, response) {
     // b.内容类型html 页面编码utf8
     response.writeHead(200, {'Content-Type': 'text/html;charset=utf8'});
     // a.发送响应数据 "Hello World"
-    //response.end('Hello World\n');
+    //response.write('Hello World\n');
     // b.发送html
-    response.write('<h1>合计额呵呵呵</h1>')
-
+    //response.write('<h1>合计额呵呵呵</h1>')
+    response.end();
 }).listen(8888);
 
 // 终端打印如下信息

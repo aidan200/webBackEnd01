@@ -1,6 +1,11 @@
 /**
  * Created by Administrator on 2017/6/8.
  */
+
+//常用来编码转换
+//nodejs 线程有内存限制，buffer不算在线程内
+
+
 //缓冲区合并
 var buffer1 = Buffer.from('12344');
 var buffer2 = Buffer.from('99999');
