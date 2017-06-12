@@ -22,5 +22,4 @@ worker_process.on('message', function(m) {
 //向子进程发送消息
 worker_process.send({mm:"呵呵哒"});
 //子进程从父进程的事件循环中剔除。于是父进程可以愉快的退出  spawn的option设置detached为true 设置stdio为ignore（这点容易忘）
-//
-worker_process.unref();
+//worker_process.unref();
