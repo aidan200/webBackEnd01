@@ -1,0 +1,1 @@
+copy e:\test.txt e:\1.txt
